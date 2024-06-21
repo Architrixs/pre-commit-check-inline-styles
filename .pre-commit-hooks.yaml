@@ -2,6 +2,6 @@
 - id: check-inline-styles
   name: Check Inline Styles
   description: This hook checks for inline styles in HTML files.
-  entry: check_inline_styles.py
+  entry: check-inline-style
   language: python
-  files: \.html$
+  types: [file]
